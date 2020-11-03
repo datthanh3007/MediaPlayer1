@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Zing MP3 Test</string>
+    <string name="bat_hat">Bài Hát</string>
+    <string name="ca_si">Ca Sĩ</string>
+    <string name="playlist">PlayList</string>
+    <string name="the_loai">Thể Loại</string>
+</resources>

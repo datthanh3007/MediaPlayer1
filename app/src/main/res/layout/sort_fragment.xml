@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?android:selectableItemBackground"
+            android:checked="true"
+            android:layoutDirection="rtl"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Default"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAZ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_sort_az"
+            android:drawablePadding="10dp"
+            android:layoutDirection="rtl"
+            android:padding="10dp"
+            android:text="Sap xep tu A - Z"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonZA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?android:selectableItemBackground"
+            android:drawableLeft="@drawable/ic_sort_za"
+            android:drawablePadding="10dp"
+            android:layoutDirection="rtl"
+            android:padding="10dp"
+            android:text="Sap xep tu Z - A"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+</LinearLayout>
